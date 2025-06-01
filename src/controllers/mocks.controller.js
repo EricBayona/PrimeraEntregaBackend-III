@@ -2,6 +2,7 @@
 import createMockPet from "../mock/mockingPets.js";
 import createMockUser from "../mock/mockingUser.js";
 import generateMockData from "../services/mocks.services.js";
+import { logger } from "../utils/logger.js";
 
 const mockPet = async (req, res) => {
     const pets = createMockPet(100);
@@ -21,7 +22,7 @@ const generateData = async (req, res) => {
         return res.json({ message: "Datos generados correctamente", ...result })
 
     } catch (error) {
-        console.error("Error al generar datos:", error.message);
+        logger.error(`Error al generar datos: ${error.name} - ${error.message}`);
         return res.status(400).json({ error: error.message });
 
     }

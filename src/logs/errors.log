@@ -1,0 +1,9 @@
+{"level":"error","message":"Ha ocurrido un error.","timestamp":"2025-06-01T18:09:09.517Z"}
+{"level":"fatal","message":"Error crítico. Deteniendo sistema.","timestamp":"2025-06-01T18:09:09.518Z"}
+{"level":"error","message":"Ha ocurrido un error.","timestamp":"2025-06-01T18:09:14.060Z"}
+{"level":"fatal","message":"Error crítico. Deteniendo sistema.","timestamp":"2025-06-01T18:09:14.061Z"}
+{"level":"error","message":"Ha ocurrido un error.","timestamp":"2025-06-01T18:09:15.003Z"}
+{"level":"fatal","message":"Error crítico. Deteniendo sistema.","timestamp":"2025-06-01T18:09:15.003Z"}
+{"level":"error","message":"Ha ocurrido un error.","timestamp":"2025-06-01T18:09:52.515Z"}
+{"level":"fatal","message":"Error crítico. Deteniendo sistema.","timestamp":"2025-06-01T18:09:52.518Z"}
+{"level":"error","message":"Error al generar datos: Error - El parámetro 'users' debe ser un número válido.","timestamp":"2025-06-01T18:31:47.175Z"}
