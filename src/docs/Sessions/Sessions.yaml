@@ -1,0 +1,69 @@
+openapi: 3.0.3
+info:
+  title: Sessions API
+  version: 1.0.0
+  description: API para la gestión de usuarios
+
+paths:
+  /api/sessions/register:
+    post:
+      summary: Registrar un nuevo usuario
+      tags:
+        - Sessions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SessionsInput"
+      responses:
+        "201":
+          description: Usuario registrado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Sessions"
+
+components:
+  schemas:
+    Sessions:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: Id autogenerado de mongo
+        first_name:
+          type: string
+          description: Nombre del usuario
+        last_name:
+          type: string
+          description: Apellido del usuario
+        email:
+          type: string
+          description: Correo del usuario
+        password:
+          type: string
+          description: Contrasela Hasheada del usuario
+      example:
+        status: success
+        payload: 6854d342ae48c328bf3f121a
+    SessionsInput:
+      type: object
+      properties:
+        first_name:
+          type: string
+          example: "Juan"
+        last_name:
+          type: string
+          example: "Pérez"
+        email:
+          type: string
+          example: "juan.perez@email.com"
+        password:
+          type: string
+          example: "123"
+      required:
+        - first_name
+        - last_name
+        - email
+        - password

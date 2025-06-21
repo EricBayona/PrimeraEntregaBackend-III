@@ -20,10 +20,10 @@ const transports = [
     new winston.transports.Console({
         level: environment === "development" ? "debug" : "info",
         format: winston.format.combine(
-            winston.format.colorize({ all: true }),
+            winston.format.colorize({ level: true }),
             winston.format.timestamp(),
             winston.format.printf(({ timestamp, level, message }) => {
-                return `[${timestamp}] [${level.toUpperCase()}]: ${message}`;
+                return `${timestamp} [${level}]: ${message}`;
             })
         ),
     }),

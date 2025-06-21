@@ -1,0 +1,81 @@
+openapi: 3.0.3
+info:
+  title: Users API
+  version: 1.0.0
+  description: API para la gestión de mascotas
+
+paths:
+  /api/pets:
+    get:
+      summary: Obtener lista de mascotas
+      tags:
+        - Pets
+      responses:
+        "200":
+          description: Lista de mascotas obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Pets"
+    post:
+      summary: Ingresar una nueva mascota
+      tags:
+        - Pets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PetsInput"
+      responses:
+        "201":
+          description: Mascota ingresada exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+
+components:
+  schemas:
+    Pets:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: Id autogenerado de mongo
+        name:
+          type: string
+          description: Nombre de la mascota
+        specie:
+          type: string
+          description: Raza de la mascota
+        birthDate:
+          type: date
+          description: Edad de la mascota
+        adopted:
+          type: boolean
+          description: si fue o no adoptado
+      example:
+        _id: objectId("683c9925dd86a18a3cf41644")
+        name: Duki
+        specie: criollo deluxe
+        birthDate: 2010-01-01T00:00:00.000Z
+        adopted: true
+    PetsInput:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "Duki"
+        specie:
+          type: string
+          example: criollo deluxe
+        birthDate:
+          type: date
+          example: 01/01/2019
+      required:
+        - name
+        - specie
+        - birthDate

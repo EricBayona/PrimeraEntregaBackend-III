@@ -1,0 +1,148 @@
+openapi: 3.0.3
+info:
+  title: Users API
+  version: 1.0.0
+  description: API para la gestión de usuarios
+
+paths:
+  /api/users:
+    get:
+      summary: Obtener lista de usuarios
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Lista de usuarios obtenida exitosamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/User"
+    post:
+      summary: Crear un nuevo usuario
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserInput"
+      responses:
+        "201":
+          description: Usuario creado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+
+  /api/users/{id}:
+    get:
+      summary: Obtener un usuario por ID
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Usuario encontrado
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "404":
+          description: Usuario no encontrado
+    put:
+      summary: Actualizar un usuario por ID
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserInput"
+      responses:
+        "200":
+          description: Usuario actualizado exitosamente
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "404":
+          description: Usuario no encontrado
+    delete:
+      summary: Eliminar un usuario por ID
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "204":
+          description: Usuario eliminado exitosamente
+        "404":
+          description: Usuario no encontrado
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: Id autogenerado de mongo
+        first_name:
+          type: string
+          description: Nombre del usuario
+        last_name:
+          type: string
+          description: Apellido del usuario
+        email:
+          type: string
+          description: Correo del usuario
+        password:
+          type: string
+          description: Contrasela Hasheada del usuario
+      example:
+        _id: objectId("683c9925dd86a18a3cf41644")
+        first_name: Juan
+        last_name: Pérez
+        email: juan.perez@email.com
+        password: "$2b$10$N7Mm78qKYrzPykgW01dUqeDXDw91QJ0Gs02e5NOE93CbAu9B9mAm2"
+        role: user
+        pets: []
+    UserInput:
+      type: object
+      properties:
+        first_name:
+          type: string
+          example: "Juan"
+        last_name:
+          type: string
+          example: "Pérez"
+        email:
+          type: string
+          example: "juan.perez@email.com"
+        password:
+          type: string
+          example: "123"
+      required:
+        - first_name
+        - last_name
+        - email
+        - password

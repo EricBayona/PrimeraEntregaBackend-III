@@ -16,7 +16,7 @@ const mockUser = async (req, res) => {
 
 const generateData = async (req, res) => {
     try {
-        const { users, pets } = req.query;
+        const { users, pets } = req.params;
         const result = await generateMockData(users, pets);
 
         return res.json({ message: "Datos generados correctamente", ...result })
