@@ -1,0 +1,175 @@
+[2025-06-24T18:36:48.502Z] Error: ENOENT: no such file or directory, open 'C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\src\public\documents\1750790208498-DNI Eric.pdf'
+Error: ENOENT: no such file or directory, open 'C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\src\public\documents\1750790208498-DNI Eric.pdf'
+
+[2025-06-24T18:37:50.984Z] Error: ENOENT: no such file or directory, open 'C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\src\public\documents\1750790270980-DNI-dorso.png'
+Error: ENOENT: no such file or directory, open 'C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\src\public\documents\1750790270980-DNI-dorso.png'
+
+[2025-06-24T18:42:31.433Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:42:42.582Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:42:55.706Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:44:40.551Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:44:49.341Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:44:51.426Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:27.446Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:29.148Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:30.700Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:31.801Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:32.901Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:33.932Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+
+[2025-06-24T18:45:40.644Z] MulterError: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:200:10)
+    at SBMH.push (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bayon\OneDrive\Escritorio\RecursosBackend-Adoptme-main\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+

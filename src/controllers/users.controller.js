@@ -1,3 +1,4 @@
+import userModel from "../dao/models/User.js";
 import { usersService } from "../services/index.js"
 
 const getAllUsers = async (req, res) => {
@@ -40,10 +41,46 @@ const deleteUser = async (req, res) => {
     res.send({ status: "success", message: "User deleted" })
 }
 
+const uploadDocuments = async (req, res) => {
+    try {
+        const { uid } = req.params;
+        const files = req.files;
+
+        if (!files || files.length === 0) {
+            return res.status(400).json({ menssage: "No files were uploaded." });
+        }
+
+        const documents = files.map(file => ({
+            name: file.originalname,
+            reference: file.path
+        }));
+
+        const user = await userModel.findByIdAndUpdate(
+            uid,
+            { $push: { documents: { $each: documents } } },
+            { new: true }
+        );
+
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        res.status(200).json({
+            message: 'Archivos subidos y usuario actualizado correctamente.',
+            user
+        });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ message: 'Server error while uploading documents' })
+
+    };
+};
+
 export default {
     deleteUser,
     getAllUsers,
     createUser,
     getUser,
-    updateUser
+    updateUser,
+    uploadDocuments
 }
