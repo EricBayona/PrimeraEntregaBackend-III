@@ -7,7 +7,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./src/app.js",
     "dev": "cross-env NODE_ENV=development nodemon ./src/app.js",
-    "test": "mocha test/supertest.test.js"
+    "test": "mocha \"test/**/*.test.js\" --timeout 10000"
   },
   "keywords": [],
   "author": "",
