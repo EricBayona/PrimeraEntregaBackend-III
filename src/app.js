@@ -3,8 +3,6 @@ dotenv.config();
 import express from 'express';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
-// import os from "os";
-// console.log(os.cpus());
 import usersRouter from './routes/users.router.js';
 import petsRouter from './routes/pets.router.js';
 import adoptionsRouter from './routes/adoption.router.js';
@@ -14,6 +12,7 @@ import { logger, middlewareLogger } from './utils/logger.js';
 import loggertestRouter from './routes/loggertest.router.js';
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUiExpress from 'swagger-ui-express'
+import { errorHandler } from './middlewares/errorHandler.js';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -49,6 +48,10 @@ app.use('/api/sessions', sessionsRouter);
 app.use('/api/mocks', mocksRouter);
 app.use("/loggerTest", loggertestRouter);
 
+app.use((req, res, next) => {
+    res.status(404).json({ ok: false, mensaje: 'Ruta no encontrada' });
+});
 
+app.use(errorHandler);
 
 app.listen(PORT, () => logger.info(`Listening on ${PORT}`))
