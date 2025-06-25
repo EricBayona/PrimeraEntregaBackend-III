@@ -29,10 +29,20 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
     const updateBody = req.body;
     const userId = req.params.uid;
-    const user = await usersService.getUserById(userId);
-    if (!user) return res.status(404).send({ status: "error", error: "User not found" })
-    const result = await usersService.update(userId, updateBody);
-    res.send({ status: "success", message: "User updated" })
+    try {
+        const user = await usersService.getUserById(userId);
+        if (!user) return res.status(404).send({ status: "error", error: "User not found" })
+        const result = await usersService.update(userId, updateBody);
+        res.send({ status: "success", message: "User updated", user: result })
+
+    } catch (error) {
+        if (error.code === 11000 && error.keyPattern?.email) {
+            return res.status(400).send({
+                status: 'error',
+                error: 'El email ya está registrado por otro usuario'
+            });
+        }
+    }
 }
 
 const deleteUser = async (req, res) => {
